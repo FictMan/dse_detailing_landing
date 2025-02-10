@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'hover-from': "rgba(21, 142, 95, 0.08)",
+        'hover-to': "rgba(21, 142, 95, 0.24)",
+        'base-color': "rgba(255, 255, 255, 0.03)",
 
         'action-base-default': 'var(--action-base-default)',
       },
@@ -18,7 +21,14 @@ const config: Config = {
       fontFamily: {
         'golos-regular': ['var(--font-golos-regular)'],
         unbounded: ['var(--font-unbounded)'],
-      }
+      },
+      fontSize: {
+        h3: ['44px', {
+          lineHeight: '90%',
+          letterSpacing: '-1%',
+          fontWeight: '700',
+        }]
+      },
     },
   },
   plugins: [],

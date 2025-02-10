@@ -3,20 +3,13 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const unbounded = localFont({
-  src: [{
-      path: './fonts/UnboundedMedium.ttf',
-      weight: '700',
-      style: 'normal',
-  }, {
-    path: './fonts/UnboundedRegular.ttf',
-    weight: '400',
-    style: 'normal',
-  }],
-  variable: '--font-unbounded',
+    src: './fonts/Unbounded.ttf',
+    variable: '--font-unbounded',
+    weight: '100 900',
 });
 
 const golosRegular = localFont({
-  src: "./fonts/GolosTextRegular.ttf",
+  src: "./fonts/GolosText.ttf",
   variable: "--font-golos-regular",
   weight: "100 900",
 });
