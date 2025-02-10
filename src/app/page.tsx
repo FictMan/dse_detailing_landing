@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { HeaderComponent } from "../../shared/components/header/header.component";
 
 export default function Home() {
