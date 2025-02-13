@@ -14,6 +14,7 @@ const config: Config = {
         'hover-from': "rgba(21, 142, 95, 0.08)",
         'hover-to': "rgba(21, 142, 95, 0.24)",
         'base-color': "rgba(255, 255, 255, 0.03)",
+        'boder-base-color': "rgba(255, 255, 255, 0.1)",
 
         'action-base-default': 'var(--action-base-default)',
       },
