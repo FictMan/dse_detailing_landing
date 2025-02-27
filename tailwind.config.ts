@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./shared/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +12,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        current: 'currentColor',
         'hover-from': "rgba(21, 142, 95, 0.08)",
         'hover-to': "rgba(21, 142, 95, 0.24)",
         'base-color': "rgba(255, 255, 255, 0.03)",

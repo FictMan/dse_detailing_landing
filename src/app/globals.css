@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --text-alternative: #0E0615;
   --foreground: #171717;
+  --background: #F1F1F1;
   --action-base-default: #6D12A9;
 }
 
@@ -12,6 +13,7 @@
   :root {
     --background: #0E0615;
     --foreground: #ededed;
+    --text-alternative: #FFFFFF;
   }
 }
 
@@ -19,4 +21,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-unbounded);
+}
+
+a {
+  color: #FFFFFF;
+}
+
+p {
+  color: var(--text-alternative);
 }
