@@ -31,10 +31,10 @@ export const SliderComponent = () => {
 
 
   return (
-    <div className="flex flex-col w-full items-center">
+    <div className="flex flex-col w-full items-center p-4 md:p-0">
       <div ref={scrollRef} className="flex overflow-x-auto space-x-4 py-4 scroll-smooth no-scrollbar">
         {images.map((src, index) => (
-          <img key={index} src={src} alt={`Gallery Image ${index + 1}`} className="h-[540px] w-rounded-lg shadow-md" />
+          <img key={index} src={src} alt={`Gallery Image ${index + 1}`} className="h-[540px] object-contain w-rounded-lg shadow-md" />
         ))}
       </div>
 

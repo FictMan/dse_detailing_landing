@@ -15,23 +15,23 @@ export const MapComponent = () => {
 
   return (
     <div id='address' className="flex flex-col">
-      <div className='flex flex-col pb-7 border-b border-boder-base-color'>
-        <p className='font-golos-regular text-lg opacity-70 mb-4'>Адреса</p>
-        <p className='text-5xl'>м. Черкаси</p>
-        <p className='text-5xl'>Вул. 30-річчя Перемоги, 70</p>
+      <div className='p-4 md:p-0 flex flex-col pb-7 border-b border-boder-base-color'>
+        <p className='font-golos-regular md:text-lg opacity-70 mb-4'>Адреса</p>
+        <p className='text-4xl md:text-5xl'>м. Черкаси</p>
+        <p className='text-4xl md:text-5xl'>Вул. 30-річчя Перемоги, 70</p>
       </div>
 
-      <div className="mt-7 flex justify-between">
+      <div className="p-4 md:p-0 mt-7 flex justify-between flex-col md:flex-row gap-6">
         <div className='flex flex-col'>
-          <p className="font-golos-regular text-lg opacity-70">Ми працюємо</p>
+          <p className="font-golos-regular md:text-lg opacity-70">Ми працюємо</p>
           <p className="text-xl">з 9 до 18:00, Пн-Пт</p>
         </div>
         <div className='flex flex-col'>
-          <p className="font-golos-regular text-lg opacity-70">Номер телефону</p>
+          <p className="font-golos-regular md:text-lg opacity-70">Номер телефону</p>
           <p className="text-xl">+380 93 216 84 51</p>
         </div>
         <div className='flex flex-col'>
-        <a href="https://www.instagram.com/dse_detailing" className='bg-action-base-default text-xl py-3 px-4 rounded-lg'>Звʼязатись з нами</a>
+        <a href="https://www.instagram.com/dse_detailing" className='bg-action-base-default text-xl py-3 px-4 rounded-lg text-center'>Звʼязатись з нами</a>
         </div>
       </div>
 

@@ -30,6 +30,11 @@ const config: Config = {
           lineHeight: '90%',
           letterSpacing: '-1%',
           fontWeight: '700',
+        }],
+        h2: ['26px', {
+          lineHeight: '90%',
+          letterSpacing: '-1%',
+          fontWeight: '700',
         }]
       },
     },
