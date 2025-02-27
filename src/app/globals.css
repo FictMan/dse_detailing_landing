@@ -9,11 +9,21 @@
   --action-base-default: #6D12A9;
 }
 
+.bg-image {
+  background-image: url('/images/bg-white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0E0615;
     --foreground: #ededed;
     --text-alternative: #FFFFFF;
+  }
+  .bg-image {
+    background-image: url('/images/bg-black.png');
   }
 }
 

@@ -3,7 +3,7 @@
 export const HeaderComponent = () => {
   return (
     <header className="flex flex-col">
-      <div className="absolute right-0 top-0 z-[-1] max-h-[700px] bg-[url('/images/bg-white.png')] w-full bg-cover bg-center h-full" />
+      <div className="absolute right-0 top-0 z-[-1] max-h-[700px] bg-image w-full bg-cover bg-center h-full" />
 
       <div className="flex justify-between">
         <p className="text-4xl font-medium">DSE</p>
