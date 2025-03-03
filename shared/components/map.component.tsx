@@ -18,7 +18,7 @@ export const MapComponent = () => {
       <div className='p-4 md:p-0 flex flex-col pb-7 border-b border-boder-base-color'>
         <p className='font-golos-regular md:text-lg opacity-70 mb-4'>Адреса</p>
         <p className='text-4xl md:text-5xl'>м. Черкаси</p>
-        <p className='text-4xl md:text-5xl'>Вул. 30-річчя Перемоги, 70</p>
+        <p className='text-4xl md:text-5xl'>вул. 30-річчя Перемоги, 70</p>
       </div>
 
       <div className="p-4 md:p-0 mt-7 flex justify-between flex-col md:flex-row gap-6">
