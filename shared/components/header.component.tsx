@@ -6,7 +6,7 @@ export const HeaderComponent = () => {
       <div className="absolute right-0 top-0 z-[-1] max-h-[700px] bg-image w-full bg-cover bg-center h-full" />
 
       <div className="flex justify-between">
-        <img src='images/logo.png' />
+        <img src='images/logo.png' className="mix-blend-difference" />
         <a href="tel:380-93-216-84-51" className="mt-auto mb-auto text-xl">+380 93 216 84 51</a>
       </div>
 
