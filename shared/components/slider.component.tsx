@@ -18,15 +18,18 @@ export const SliderComponent = () => {
   };
 
   const images = [
-    'images/image1.jpg',
-    'images/image2.jpeg',
-    'images/image3.jpg',
+    'images/image1.jpeg',
+    'images/image2.jpg',
+    'images/image3.jpeg',
     'images/image4.jpg',
     'images/image5.jpg',
     'images/image6.jpg',
     'images/image7.jpg',
     'images/image8.jpg',
     'images/image9.jpg',
+    'images/image10.jpeg',
+    'images/image11.jpeg',
+    'images/image12.jpeg',
   ];
 
 
