@@ -28,7 +28,7 @@ export const MapComponent = () => {
         </div>
         <div className='flex flex-col'>
           <p className="font-golos-regular md:text-lg opacity-70">Номер телефону</p>
-          <p className="text-xl">+380 93 216 84 51</p>
+          <a href="tel:380-93-216-84-51" className="text-xl">+380 93 216 84 51</a>
         </div>
         <div className='flex flex-col'>
         <a href="https://www.instagram.com/dse_detailing" className='bg-action-base-default text-xl py-3 px-4 rounded-lg text-center'>Звʼязатись з нами</a>
